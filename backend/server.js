@@ -12,19 +12,6 @@ const port = 5000;
 app.use(express.json());
 app.use(cors());
 
-app.use((req, res, next) => {
-  res.header("Content-Type: application/json");
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Credentials", true);
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Access-Control-Allow-Request-Method"
-  );
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
-  res.header("Allow", "GET, PUT, POST, DELETE, OPTIONS");
-  next();
-});
-
 app.use("/api/v1/cotizaciones", cotizaciones);
 app.use("/api/v1/envios", envios);
 app.use("/api/v1/empresas", empresas);
