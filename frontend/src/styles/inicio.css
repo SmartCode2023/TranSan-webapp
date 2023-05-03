@@ -1,0 +1,38 @@
+.inicio-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 92.6vh;
+  display: flex;
+}
+
+.inicio-info-container {
+  width: 35%;
+  margin-left: 30px;
+  align-self: center;
+}
+
+.inicio-text {
+  padding-top: 20%;
+  border-left: 4px solid #a9bf04;
+  height: 300px;
+}
+
+.inicio-text h2 {
+  font-size: 35px;
+}
+
+.inicio-text h6 {
+  font-size: 18px;
+}
+
+.inicio-image {
+  width: 65%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.inicio-image img {
+  width: auto;
+  height: 100%;
+}

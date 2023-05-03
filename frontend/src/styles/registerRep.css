@@ -1,0 +1,23 @@
+.rep-container{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20%;
+}
+
+.col-enviar{
+    text-align: end;
+}
+
+.send-button{
+    background-color: #a9bf04;
+    border: none;
+    color: white;
+    width: 70%;
+}
+
+.send-button:hover {
+    background-color: white;
+    border: 1px solid #a9bf04;
+    color: #a9bf04;
+    font-weight: bold;
+}

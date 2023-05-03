@@ -1,0 +1,40 @@
+.servicios {
+  max-width: 100%;
+}
+
+.servicios-container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.servicio-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  max-width: 100%;
+}
+
+.servicio-text {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  align-self: center;
+}
+
+.text-end {
+  justify-content: end;
+}
+
+.servicio-image {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+.servicio-image img,
+.servicio-image img {
+  height: 40vh;
+  width: auto;
+}

@@ -1,0 +1,50 @@
+.home-container {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 92.6vh;
+  position: relative;
+}
+
+.home-image1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 46.3vh;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.home-image1 img {
+  margin-top: -200px;
+  width: 100%;
+}
+
+.home-image2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 46.3vh;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.home-image2 img {
+  margin-top: -110px;
+  width: 100%;
+}
+
+.envios-text,
+.perfil-text {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  z-index: 99999;
+  top: 50%;
+  right: 20%;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}

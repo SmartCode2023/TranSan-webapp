@@ -1,0 +1,64 @@
+.login-container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  min-height: 92.6vh;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  width: 30%;
+  padding-top: 130px;
+  min-height: 92.6vh;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container h2 {
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: white;
+  border: 1px solid #a9bf04;
+  color: #a9bf04;
+  font-weight: bold;
+}
+
+.registry-button{
+  margin-top: 10px;
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.registry-button:hover {
+  background-color: white;
+  border: 1px solid #a9bf04;
+  color: #a9bf04;
+  font-weight: bold;
+}

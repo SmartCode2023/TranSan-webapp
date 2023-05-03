@@ -1,0 +1,23 @@
+.navbar-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #a9bf04;
+  color: white !important;
+}
+
+.navbar-brand-container {
+  cursor: pointer;
+  font-weight: bold;
+  width: 10.5%;
+  margin-left: 0;
+}
+
+.navbar-links-container {
+  width: 80%;
+  display: flex;
+}
+
+.navbar-links {
+  width: 100%;
+  justify-content: space-evenly;
+}

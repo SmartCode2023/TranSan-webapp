@@ -1,0 +1,16 @@
+.perfil-profile p,
+.perfil-empresa p {
+  font-size: 18px;
+}
+
+.perfil-empresa button {
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+}
+
+.perfil-empresa button:hover {
+  color: #a9bf04;
+  border: 1px solid #a9bf04;
+  background-color: white;
+}

@@ -1,0 +1,52 @@
+.cotizacion-container {
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.cotizacion-message {
+  color: #a9bf04;
+}
+
+.cotizacion-form-label {
+  font-size: 19px;
+}
+
+.cotizar-button-container {
+  margin: 0;
+  padding: 0;
+}
+
+.cotizacion-radio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cotizar-form-button {
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+  width: 49%;
+  float: right;
+}
+
+.cotizar-form-button:hover,
+.cotizacion-confirm-button:hover {
+  color: #a9bf04;
+  border: 1px solid #a9bf04;
+  background-color: white;
+}
+
+.cotizacion-confirm-container {
+  font-size: 19px;
+}
+
+.cotizacion-confirm-title {
+  color: #a9bf04;
+}
+
+.cotizacion-confirm-button {
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+}

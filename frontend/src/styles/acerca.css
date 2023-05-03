@@ -1,0 +1,41 @@
+.acerca-jumbotron {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  position: relative;
+}
+
+.acerca-container {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 70vh;
+  overflow: hidden;
+  position: absolute;
+}
+
+.acerca-panel {
+  background-color: #a9bf04;
+  color: white;
+  margin-top: 150px;
+  margin-left: 40px;
+  padding: 30px;
+  opacity: 0.9;
+  max-width: 80vh;
+  max-height: 80vh;
+  border-radius: 15px;
+  z-index: 10;
+  position: absolute;
+}
+
+.acerca-container img {
+  width: 100%;
+}
+
+.acerca-text-container {
+  top: 80vh;
+  left: 15vh;
+  position: absolute;
+  display: flex;
+}

@@ -1,0 +1,11 @@
+.btn-envio-detalles {
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+}
+
+.btn-envio-detalles:hover {
+  color: #a9bf04;
+  border: 1px solid #a9bf04;
+  background-color: white;
+}

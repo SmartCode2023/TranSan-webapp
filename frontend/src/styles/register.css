@@ -1,0 +1,32 @@
+.archive-button{
+  background-color: #a9bf04;
+  border: none;
+  color: white;
+  width: 40%;
+}
+
+.archive-button:hover {
+    background-color: white;
+    border: 1px solid #a9bf04;
+    color: #a9bf04;
+    font-weight: bold;
+}
+
+.next-button:hover {
+    background-color: white;
+    border: 1px solid #a9bf04;
+    color: #a9bf04;
+    font-weight: bold;
+}
+
+.next-button{
+    margin-top: 100px;
+    background-color: #a9bf04;
+    border: none;
+    color: white;
+    width: 40%;
+}
+
+.col-siguiente{
+    text-align: end;
+}
